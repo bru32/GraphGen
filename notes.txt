@@ -1,2 +1,5 @@
 2025/05/23
 Experimenting with git.
+
+2025/05/25
+Push from git.
