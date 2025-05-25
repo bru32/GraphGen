@@ -1,3 +1,6 @@
+# Testing Prim's Algorithm
+
+
 class Graph:
   def __init__(self, size):
     self.adj_matrix = [[0] * size for _ in range(size)]
@@ -34,30 +37,34 @@ class Graph:
           key_values[v] = self.adj_matrix[u][v]
           parents[v] = u
 
-g = Graph(8)
 
-g.add_vertex_data(0, 'A')
-g.add_vertex_data(1, 'B')
-g.add_vertex_data(2, 'C')
-g.add_vertex_data(3, 'D')
-g.add_vertex_data(4, 'E')
-g.add_vertex_data(5, 'F')
-g.add_vertex_data(6, 'G')
-g.add_vertex_data(7, 'H')
+# ---------------------------------------------------------
 
-g.add_edge(0, 1, 4)  # A - B
-g.add_edge(0, 3, 3)  # A - D
-g.add_edge(1, 2, 3)  # B - C
-g.add_edge(1, 3, 5)  # B - D
-g.add_edge(1, 4, 6)  # B - E
-g.add_edge(2, 4, 4)  # C - E
-g.add_edge(2, 7, 2)  # C - H
-g.add_edge(3, 4, 7)  # D - E
-g.add_edge(3, 5, 4)  # D - F
-g.add_edge(4, 5, 5)  # E - F
-g.add_edge(4, 6, 3)  # E - G
-g.add_edge(5, 6, 7)  # F - G
-g.add_edge(6, 7, 5)  # G - H
+graph = Graph(8)
+
+graph.add_vertex_data(0, 'A')
+graph.add_vertex_data(1, 'B')
+graph.add_vertex_data(2, 'C')
+graph.add_vertex_data(3, 'D')
+graph.add_vertex_data(4, 'E')
+graph.add_vertex_data(5, 'F')
+graph.add_vertex_data(6, 'G')
+graph.add_vertex_data(7, 'H')
+
+graph.add_edge(0, 1, 4)  # A - B
+graph.add_edge(0, 3, 3)  # A - D
+graph.add_edge(1, 2, 3)  # B - C
+graph.add_edge(1, 3, 5)  # B - D
+graph.add_edge(1, 4, 6)  # B - E
+graph.add_edge(2, 4, 4)  # C - E
+graph.add_edge(2, 7, 2)  # C - H
+graph.add_edge(3, 4, 7)  # D - E
+graph.add_edge(3, 5, 4)  # D - F
+graph.add_edge(4, 5, 5)  # E - F
+graph.add_edge(4, 6, 3)  # E - G
+graph.add_edge(5, 6, 7)  # F - G
+graph.add_edge(6, 7, 5)  # G - H
 
 print("Prim's Algorithm MST:")
-g.prims_algorithm()
+graph.prims_algorithm()
+

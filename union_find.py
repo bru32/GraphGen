@@ -36,4 +36,3 @@ u, v = 0, 3
 a, b = find(u), find(v)
 print(f"root({u})={a}")
 print(f"root({v})={b}")
-

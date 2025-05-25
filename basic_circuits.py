@@ -169,7 +169,7 @@ graph.edges = [
 
 graph.adj = to_adj(graph.edges)
 
-start, goal = 0, 15
+start, goal = 0, 4
 path = search(graph, start, goal)
 print(path)
 

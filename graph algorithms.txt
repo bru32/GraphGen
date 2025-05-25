@@ -1,0 +1,160 @@
+
+A* search algorithm (AStar)
+  graph traversal and pathfinding algorithm that is used in many fields of computer science due to its completeness, optimality, and optimal efficiency.  Given a weighted graph, a source node and a goal node, the algorithm finds the shortest path (with respect to the given weights) from source to goal.
+
+Alpha–beta pruning
+Aperiodic graph
+
+B* (B star)
+  Best-first graph search algorithm that finds the least-cost path from a given initial node to any goal node (out of one or more possible goals). First published by Hans Berliner in 1979, it is related to the A* search algorithm.
+
+Barabási–Albert model
+Belief propagation
+Bellman–Ford algorithm
+Bianconi–Barabási model
+Bidirectional search
+Blossom algorithm
+Borůvka's algorithm
+Bottleneck traveling salesman problem
+Brandes' algorithm
+Breadth-first search
+Bron–Kerbosch algorithm
+Bully algorithm
+
+Capacitated arc routing problem
+Centrality
+Chaitin's algorithm
+Christofides algorithm
+Clique percolation method
+Closure problem
+Color-coding
+Colour refinement algorithm
+Contraction hierarchies
+Courcelle's theorem
+Cuthill–McKee algorithm
+
+D*
+Degeneracy (graph theory)
+Depth-first search
+Dijkstra–Scholten algorithm
+Dijkstra's algorithm
+Dinic's algorithm
+Disparity filter algorithm of weighted network
+Disjoint Set Union-Find
+Double pushout graph rewriting
+DSatur
+Dulmage–Mendelsohn decomposition
+Dynamic connectivity
+Dynamic link matching
+
+Edmonds–Karp algorithm
+Edmonds' algorithm
+Euler tour technique
+External memory graph traversal
+Extremal Ensemble Learning
+
+FKT algorithm
+Floyd–Warshall algorithm
+Force-directed graph drawing
+Ford–Fulkerson algorithm
+Fringe search
+
+Gallai–Edmonds decomposition
+Girvan–Newman algorithm
+Goal node (computer science)
+Gomory–Hu tree
+Graph bandwidth
+Graph edit distance
+Graph embedding
+Graph isomorphism
+Graph isomorphism problem
+Graph kernel
+Graph neural network
+Graph reduction
+Graph traversal
+GYO algorithm
+
+Hall-type theorems for hypergraphs
+Havel–Hakimi algorithm
+HCS clustering algorithm
+Hierarchical closeness
+Hierarchical clustering of networks
+Hopcroft–Karp algorithm
+
+Iterative deepening A*
+Initial attractiveness
+Iterative compression
+Iterative deepening depth-first search
+
+Johnson's algorithm
+Journal of Graph Algorithms and Applications
+Jump point search
+Junction tree algorithm
+
+K shortest path routing
+Karger's algorithm
+KHOPCA clustering algorithm
+Kleitman–Wang algorithms
+Knight's tour
+Knowledge graph embedding
+Knuth's Simpath algorithm
+Kosaraju's algorithm
+Kruskal's algorithm
+
+LASCNN algorithm
+Lexicographic breadth-first search
+Link prediction
+Longest path problem
+
+MaxCliqueDyn algorithm
+METIS
+Minimax
+Minimum bottleneck spanning tree
+Misra & Gries edge-coloring algorithm
+
+Nearest neighbour algorithm (KNN)
+Network flow problem
+Network simplex algorithm
+Nonblocking minimal spanning switch
+
+PageRank
+Parallel all-pairs shortest path algorithm
+Parallel breadth-first search
+Parallel single-source shortest path algorithm
+Path-based strong component algorithm
+Pre-topological order
+Prim's algorithm
+Proof-number search
+Push–relabel maximum flow algorithm
+
+Recursive largest first algorithm
+Reverse-delete algorithm
+Rocha–Thatte cycle detection algorithm
+
+Seidel's algorithm
+Sethi–Ullman algorithm
+SMA*
+Spectral layout
+Spreading activation
+Stoer–Wagner algorithm
+Subgraph isomorphism problem
+Substructure search
+Suurballe's algorithm
+
+Tarjan's off-line lowest common ancestors algorithm
+Tarjan's strongly connected components algorithm
+Theta*
+Topological sorting
+Transit node routing
+Transitive closure
+Transitive reduction
+Travelling salesman problem
+Tree traversal
+
+Weisfeiler Leman graph isomorphism test
+Widest path problem
+Wiener connector
+
+Yen's algorithm
+
+Zero-weight cycle problem
